@@ -160,7 +160,6 @@ static int32_t msm_actuator_init_focus(struct msm_actuator_ctrl_t *a_ctrl,
 					settings[i].i2c_operation);
 				break;
 			}
-			break;
 		}
 		case MSM_ACT_POLL: {
 			switch (settings[i].data_type) {
@@ -183,7 +182,6 @@ static int32_t msm_actuator_init_focus(struct msm_actuator_ctrl_t *a_ctrl,
 					settings[i].i2c_operation);
 				break;
 			}
-			break;
 		}
 		}
 
